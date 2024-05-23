@@ -28,8 +28,8 @@ public class Circular_Max_Sum {
         int minSum = arr[0];
         int minEnd = arr[0];
         for (int i = 1; i < arr.length; i++) {
-            minEnd = Math.max(arr[i], minEnd + arr[i]);
-            minSum = Math.max(minSum, minEnd);
+            minEnd = Math.min(arr[i], minEnd + arr[i]);
+            minSum = Math.min(minSum, minEnd);
         }
         return minSum;
     }
