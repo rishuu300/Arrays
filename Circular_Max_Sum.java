@@ -51,7 +51,7 @@ public class Circular_Max_Sum {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 5, -2, 3, 4 };
+        int arr[] = {8,-4,3,-5,4};
         naive(arr);
         efficient(arr);
     }

@@ -25,7 +25,7 @@ public class Wave_Sort {
     public static void main(String[] args) {
         int arr[] = {34,65,14,87,37,92};
         int arr2[] = {10, 90, 49, 2, 1, 5, 23};
-        naive(arr);
-        efficient(arr2);
+        naive(arr2);
+        efficient(arr);
     }
 }
